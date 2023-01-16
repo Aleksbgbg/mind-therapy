@@ -5,7 +5,7 @@ import Root from "@/views/main/root.vue";
 </script>
 
 <template lang="pug">
-.h-screen.flex.flex-col
+.flex.flex-col.h-screen.w-screen.overflow-x-hidden
   .grow
     header
       header-root
