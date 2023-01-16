@@ -1,6 +1,10 @@
-export interface Translation {
-  name: string;
+import { Language } from "@/utils/language/languages";
 
-  en: string;
-  kr: string;
+export type TranslationName = symbol;
+
+export interface Translation {
+  readonly name: TranslationName;
+
+  readonly [Language.En]: string;
+  readonly [Language.Kr]: string;
 }

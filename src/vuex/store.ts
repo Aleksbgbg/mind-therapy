@@ -1,3 +1,4 @@
+import { Language } from "@/utils/language/languages";
 import { persist, retrieveOrDefault } from "@/utils/persistence";
 import { createStore } from "vuex";
 
@@ -10,7 +11,7 @@ export const MUTATION = {
 export const store = createStore({
   state() {
     return {
-      language: retrieveOrDefault(LANGUAGE_KEY, "kr"),
+      language: retrieveOrDefault(LANGUAGE_KEY, Language.Kr),
     };
   },
   mutations: {
