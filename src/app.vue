@@ -9,7 +9,8 @@ import Root from "@/views/main/root.vue";
   .grow
     header
       header-root
-    root
+    main
+      root
   footer
     footer-root
 </template>

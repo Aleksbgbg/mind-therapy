@@ -1,4 +1,4 @@
-import { Language } from "@/utils/language/languages";
+import { Language } from "@/utils/language/language";
 
 export type TranslationName = symbol;
 

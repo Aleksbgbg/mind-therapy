@@ -1,4 +1,4 @@
-import { Language } from "@/utils/language/languages";
+import { Language } from "@/utils/language/language";
 import { persist, retrieveOrDefault } from "@/utils/persistence";
 import { createStore } from "vuex";
 

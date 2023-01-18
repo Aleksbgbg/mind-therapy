@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { Language } from "@/utils/language/languages";
+import { Language } from "@/utils/language/language";
 import { MUTATION, store } from "@/vuex/store";
 
 const language = ref(store.state.language);

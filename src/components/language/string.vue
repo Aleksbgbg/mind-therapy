@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getString } from "@/utils/language/translated-string";
+import { getLocalString } from "@/utils/language/local-string";
 import { type TranslationName } from "@/utils/language/translation";
 
 const props = defineProps<{
@@ -8,5 +8,5 @@ const props = defineProps<{
 </script>
 
 <template lang="pug">
-span {{ getString(name) }}
+span {{ getLocalString(name) }}
 </template>
