@@ -1,6 +1,6 @@
+import { createStore } from "vuex";
 import { Language } from "@/utils/language/language";
 import { persist, retrieveOrDefault } from "@/utils/persistence";
-import { createStore } from "vuex";
 
 const LANGUAGE_KEY = "LANG";
 

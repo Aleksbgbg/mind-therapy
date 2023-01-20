@@ -1,5 +1,7 @@
 import { createApp } from "vue";
 import App from "@/app.vue";
+import "@/fonts.css";
+import "@/setup-font-awesome";
 import "@/style.css";
 import { store } from "@/vuex/store";
 
