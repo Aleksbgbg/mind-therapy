@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Logo from "@/assets/logo.svg";
-import String from "@/components/language/string.vue";
 import LanguageSelector from "@/views/language/language-selector.vue";
 </script>
 

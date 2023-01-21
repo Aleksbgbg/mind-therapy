@@ -5,12 +5,12 @@ import Root from "@/views/main/root.vue";
 </script>
 
 <template lang="pug">
-.flex.flex-col.h-screen.w-screen.overflow-x-hidden
-  .grow
-    header
-      header-root
+.flex.flex-col.h-screen.overflow-x-hidden
+  header
+    header-root
+  .overflow-y-scroll
     main
       root
-  footer
-    footer-root
+    footer
+      footer-root
 </template>
