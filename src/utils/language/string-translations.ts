@@ -2,17 +2,30 @@ import { Language } from "@/utils/language/language";
 import { Translation } from "@/utils/language/translation";
 
 // Symbol keys required to prevent new symbols being generated on hot reload
+export const DESCRIPTION_HEADING = Symbol.for("DESCRIPTION_HEADING");
+export const DESCRIPTION_BUTTON_ATTEND = Symbol.for("DESCRIPTION_BUTTON_ATTEND");
 export const ATTEND_REASON_1_TITLE = Symbol.for("ATTEND_REASON_1_TITLE");
 export const ATTEND_REASON_1_BODY = Symbol.for("ATTEND_REASON_1_BODY");
 export const ATTEND_REASON_2_TITLE = Symbol.for("ATTEND_REASON_2_TITLE");
 export const ATTEND_REASON_2_BODY = Symbol.for("ATTEND_REASON_2_BODY");
 export const ATTEND_REASON_3_TITLE = Symbol.for("ATTEND_REASON_3_TITLE");
 export const ATTEND_REASON_3_BODY = Symbol.for("ATTEND_REASON_3_BODY");
+export const MAP_SECTION_TITLE = Symbol.for("MAP_SECTION_TITLE");
 export const MAP_TITLE = Symbol.for("MAP_TITLE");
 export const MAP_LOCATION = Symbol.for("MAP_LOCATION");
 export const MAP_GO = Symbol.for("MAP_GO");
 
 export const TRANSLATIONS: Translation[] = [
+  {
+    name: DESCRIPTION_HEADING,
+    [Language.En]: "MindArt:",
+    [Language.Kr]: "마인드아트는",
+  },
+  {
+    name: DESCRIPTION_BUTTON_ATTEND,
+    [Language.En]: "Visit now!",
+    [Language.Kr]: "다녀 보자!",
+  },
   {
     name: ATTEND_REASON_1_TITLE,
     [Language.En]: "Make lifelong friends",
@@ -46,6 +59,11 @@ export const TRANSLATIONS: Translation[] = [
     [Language.En]:
       "Following the instruction of a psychologyst, reduce the burden of your worries, pain, and emotions by finding a new home for them on the canvas",
     [Language.Kr]: "정신의사의 가르침을 따라서 마음의 고민, 상쳐, 감정, 정신에 무겁지 않도록 캔버스에 그려서 묻습니다",
+  },
+  {
+    name: MAP_SECTION_TITLE,
+    [Language.En]: "How do I get to MindArt?",
+    [Language.Kr]: "길 찾으시나요?",
   },
   {
     name: MAP_TITLE,

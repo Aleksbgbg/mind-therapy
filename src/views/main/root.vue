@@ -9,7 +9,7 @@ section
   description
 section
   why-attend
-section
+section#visit
   // map seems to be a reserved word
   map-section 
 </template>

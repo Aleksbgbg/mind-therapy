@@ -12,6 +12,6 @@ function languageChanged() {
 
 <template lang="pug">
 select.bg-transparent.outline-none(v-model="language" @change="languageChanged")
-  option(:value="Language.En") 🇬🇧 English
-  option(:value="Language.Kr") 🇰🇷 한국어
+  option.font-en(:value="Language.En") 🇬🇧 English
+  option.font-kr(:value="Language.Kr") 🇰🇷 한국어
 </template>

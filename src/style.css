@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Poppins", sans-serif;
+@layer components {
+  .btn-primary {
+    @apply text-xs font-bold text-white bg-blue-500 hover_bg-blue-600 active_bg-blue-700 focus_outline-none focus_ring focus_ring-blue-300 rounded-full px-3 py-2;
+  }
+}
+
+@layer utilities {
+  .font-en {
+    font-family: "Open Sans", "Noto Sans KR", sans-serif;
+  }
+
+  .font-kr {
+    font-family: "Noto Sans KR", "Open Sans", sans-serif;
+  }
 }
