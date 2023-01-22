@@ -14,6 +14,11 @@ export const MAP_SECTION_TITLE = Symbol.for("MAP_SECTION_TITLE");
 export const MAP_TITLE = Symbol.for("MAP_TITLE");
 export const MAP_LOCATION = Symbol.for("MAP_LOCATION");
 export const MAP_GO = Symbol.for("MAP_GO");
+export const FOOTER_COMPANY = Symbol.for("FOOTER_COMPANY");
+export const FOOTER_ABOUT = Symbol.for("FOOTER_ABOUT");
+export const FOOTER_BLOG = Symbol.for("FOOTER_BLOG");
+export const FOOTER_SOCIALS = Symbol.for("FOOTER_SOCIALS");
+export const FOOTER_COUNTRY = Symbol.for("FOOTER_COUNTRY");
 
 export const TRANSLATIONS: Translation[] = [
   {
@@ -79,5 +84,30 @@ export const TRANSLATIONS: Translation[] = [
     name: MAP_GO,
     [Language.En]: "Directions",
     [Language.Kr]: "바로 가기",
+  },
+  {
+    name: FOOTER_COMPANY,
+    [Language.En]: "Our Company",
+    [Language.Kr]: "저희 회사",
+  },
+  {
+    name: FOOTER_ABOUT,
+    [Language.En]: "About us",
+    [Language.Kr]: "저희에 대해",
+  },
+  {
+    name: FOOTER_BLOG,
+    [Language.En]: "Blog",
+    [Language.Kr]: "블로그",
+  },
+  {
+    name: FOOTER_SOCIALS,
+    [Language.En]: "Find us online",
+    [Language.Kr]: "온라인으로 찾기",
+  },
+  {
+    name: FOOTER_COUNTRY,
+    [Language.En]: "Republic of Korea",
+    [Language.Kr]: "대한민국",
   },
 ];
